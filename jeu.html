@@ -1,0 +1,53 @@
+<!-- jeu.html -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/jeu.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="jeu.html">Jeu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Jeu</h1>
+        <div id="form-container">
+            <form id="user-form">
+                <label for="username">Nom d'utilisateur:</label>
+                <input type="text" id="username" name="username">
+                <button type="submit">Commencer</button>
+            </form>
+        </div>
+        <div id="scoreboard-container">
+            <h2>Tableau des scores</h2>
+            <div id="scoreboard"></div>
+        </div>
+        <div id="game-container">
+            <div id="score">0</div>
+            <div id="chrono"></div>
+            <div class="box"></div>
+        </div>
+    </main>
+    <footer>
+        <p>Footer de la page</p>
+    </footer>
+    
+	<script src="js/jeu.js"></script>
+
+	
+
+
+
+</body>
+</html>

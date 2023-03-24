@@ -1,0 +1,45 @@
+.box {
+    background: rebeccapurple;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 210px;
+    left: 210px;
+    cursor: pointer;
+}
+
+
+
+
+#form-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#user-form {
+    display: inline-block;
+}
+
+#user-form label {
+    margin-right: 10px;
+}
+
+#scoreboard-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#scoreboard {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#scoreboard table {
+    border-collapse: collapse;
+}
+
+#scoreboard th, #scoreboard td {
+    border: 1px solid black;
+    padding: 5px;
+}
